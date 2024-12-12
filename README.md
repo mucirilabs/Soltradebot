@@ -1,8 +1,9 @@
-# Telegram Solana Bot (Raydium, Jupiter, Pump.fun)
+# Telegram Solana Bot (daos.fun)
+
 ## Main Features
 
-- Track All tokens, All Pools on Raydium(AMM, CLMM), Jupiter, Pump.fun 
-- Buy and sell all SPL tokens using JITO on Raydium, Jupiter, Pump.fun
+- Track All tokens, All Pools on Daos.fun
+- Buy and sell all SPL tokens using JITO on Daos.fun
 - Auto-buy/sell according to the user setting
 - PNL Card generation
 - Provide a security by creating new GT wallet, not requires user wallet private key
@@ -13,6 +14,7 @@
 ![z](https://github.com/btcoin23/Growtradebot/assets/138183918/20e824c4-82ab-4774-a4b3-5434d4cf925f)
 
 ## Tech stack
+
 - Typescript
 - Telegram API
 - Solana/web3
@@ -56,6 +58,7 @@ npm install
 4. Create a new `.env` file and add your Private key, Rpc URL
 
 `.env` file
+
 ```sh
 MONGODB_URL=
 REDIS_URI=
@@ -87,9 +90,10 @@ PNL_IMG_GENERATOR_API=
 npm run serve
 ```
 
-## Version 1.0,   21/6/2024
+## Version 1.0, 21/6/2024
 
 ## Contact me
+
 - [Telegram](https://t.me/BTC0in23)
 
 - [Github](https://github.com/btcoin23)

@@ -4,7 +4,11 @@ import { GasFeeEnum, JitoFeeEnum } from './user.trade.setting.service';
 import { TokenOverviewDataType, TokenSecurityInfoDataType } from './birdeye.api.service';
 
 const redisClient = createClient({
-  url: REDIS_URI
+  password: 'XpjszUI7jiGycdbftUDHAoJoXKbMVCQq',
+  socket: {
+    host: 'redis-15470.c311.eu-central-1-1.ec2.redns.redis-cloud.com',
+    port: 15470
+  }
 });
 
 export default redisClient;
